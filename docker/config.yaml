@@ -36,12 +36,12 @@ models:
 ---
 type: engine
 provider: wren_ui
-endpoint: http://wren-ui:3022
+endpoint: http://wren-ui:3002
 
 ---
 type: engine
 provider: wren_ibis
-endpoint: http://ibis-server:8000
+endpoint: http://ibis-server:8001
 
 ---
 type: document_store

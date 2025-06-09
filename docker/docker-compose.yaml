@@ -109,7 +109,7 @@ services:
       WREN_PRODUCT_VERSION: ${WREN_PRODUCT_VERSION}
     ports:
       # HOST_PORT is the port you want to expose to the host machine
-      - ${HOST_PORT}:3000
+      - ${HOST_PORT}:3002
     volumes:
       - data:/app/data
     networks:
